@@ -1,1 +1,3 @@
-# frontend-whatsapp-dw
+# Ejercicio Whatsapp
+
+Ejercicio de clase
