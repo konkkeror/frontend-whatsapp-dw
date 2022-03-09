@@ -1,0 +1,32 @@
+#btn-usuario {
+  background-color: #3d505d;
+  border-radius: 10px;
+  padding: 5px;
+  width: 65px;
+  height: 40px;
+}
+
+.bg-dark {
+  background-color: #1e2a32!important;
+}
+
+body {
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #acb4bb;
+}
+
+.opt-menu {
+  padding: 5px 10px;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.opt-menu.selected {
+  color: #16ac95;
+  border-bottom: 3px solid #16ac95;
+}
