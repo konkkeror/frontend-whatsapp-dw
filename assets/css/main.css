@@ -11,11 +11,12 @@
 }
 
 body {
-  background-image: url(../img/bg.jpg);
+  /* background-image: url(../img/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center; */
+  background-color: #101d25;
   color: #acb4bb;
 }
 
@@ -29,4 +30,8 @@ body {
 .opt-menu.selected {
   color: #16ac95;
   border-bottom: 3px solid #16ac95;
+}
+
+#contactos {
+  display: none;
 }

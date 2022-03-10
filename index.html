@@ -17,11 +17,19 @@
       </div>
     </div>
     <div class="d-flex mt-3 ms-2">
-      <div class="opt-menu">Chat</div>
-      <div class="opt-menu selected">Contactos</div>
+      <div onclick="mostrarSeccion('chats')" class="opt-menu selected">Chat</div>
+      <div onclick="mostrarSeccion('contactos')" class="opt-menu">Contactos</div>
     </div>
   </nav>
+
+  <section id="chats" class="bg-primary">
+    Lista chats
+  </section>
+  <section id="contactos" class="bg-danger">
+    Lista contactos
+  </section>
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
