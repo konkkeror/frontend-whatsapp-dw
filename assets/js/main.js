@@ -8,3 +8,7 @@ function mostrarSeccion(seccion) {
     element.classList.toggle('selected');
   });
 }
+
+function toggleUsuarios() {
+  document.getElementById('lista-usuarios').classList.toggle('mostrar-usuarios');
+}
