@@ -53,3 +53,17 @@ body {
   width: 14%;
   padding: 5px;
 }
+
+.chat-preview {
+  padding: 15px;
+  border-bottom: 1px solid #2d485a;
+}
+
+.chat-preview img {
+  width: 75px;
+  padding: 4px;
+}
+
+.chat-preview .nombre-usuario {
+  font-weight: bold;
+}
