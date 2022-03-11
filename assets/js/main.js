@@ -12,3 +12,8 @@ function mostrarSeccion(seccion) {
 function toggleUsuarios() {
   document.getElementById('lista-usuarios').classList.toggle('mostrar-usuarios');
 }
+
+function verChat() {
+  document.getElementById('chats').style.display = "none";
+  document.getElementById('detalle-chat').classList.toggle('d-flex');
+}
