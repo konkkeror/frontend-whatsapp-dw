@@ -13,24 +13,10 @@
     <div class="container-fluid">
       <span class="navbar-brand mb-0 h1">Whatsapp</span>
       <button id="btn-usuario" onclick="toggleUsuarios()">
-        <img class="rounded-circle h-100" src="assets/img/profile-pics/goku.jpg">
+        <img class="rounded-circle h-100" src="assets/img/profile-pics/usuario.jpg">
       </button>
     </div>
     <div id="lista-usuarios" class="w-100 m-2">
-      <img class="rounded-circle item-usuario" src="assets/img/profile-pics/goku.jpg">
-      <img class="rounded-circle item-usuario" src="assets/img/profile-pics/goku.jpg">
-      <img class="rounded-circle item-usuario" src="assets/img/profile-pics/goku.jpg">
-      <img class="rounded-circle item-usuario" src="assets/img/profile-pics/goku.jpg">
-      <img class="rounded-circle item-usuario" src="assets/img/profile-pics/goku.jpg">
-      <img class="rounded-circle item-usuario" src="assets/img/profile-pics/goku.jpg">
-      <img class="rounded-circle item-usuario" src="assets/img/profile-pics/goku.jpg">
-      <img class="rounded-circle item-usuario" src="assets/img/profile-pics/goku.jpg">
-      <img class="rounded-circle item-usuario" src="assets/img/profile-pics/goku.jpg">
-      <img class="rounded-circle item-usuario" src="assets/img/profile-pics/goku.jpg">
-      <img class="rounded-circle item-usuario" src="assets/img/profile-pics/goku.jpg">
-      <img class="rounded-circle item-usuario" src="assets/img/profile-pics/goku.jpg">
-      <img class="rounded-circle item-usuario" src="assets/img/profile-pics/goku.jpg">
-      <img class="rounded-circle item-usuario" src="assets/img/profile-pics/goku.jpg">
     </div>
     <div class="d-flex mt-3 ms-2">
       <div onclick="mostrarSeccion('chats')" class="opt-menu selected">Chat</div>
@@ -39,18 +25,7 @@
   </nav>
 
   <section id="chats">
-    <div class="d-flex chat-preview" onclick="verChat()">
-      <div>
-        <img class="rounded-circle" src="assets/img/profile-pics/vegeta.jpg">
-      </div>
-      <div class="ms-2" style="flex: 1">
-        <div class="nombre-usuario">Vegeta</div>
-        <div class="ultimo-mensaje">Vegeta: Kakarotoooo!!!</div>
-      </div>
-      <div class="hora small">
-        <div>9:45pm</div>
-      </div>
-    </div>
+    
   </section>
   <section id="contactos" class="bg-danger">
     Lista contactos
@@ -58,12 +33,6 @@
 
   <section id="detalle-chat">
     <div id="mensajes">
-      <div class="mensaje enviado">Kakaroto!</div>
-      <div class="mensaje recibido">Vegeta, relájate, muy proto volveremos a pelear</div>
-      <div class="mensaje enviado">Insecto estupido!!!!, te destruire!!!</div>
-      <div class="mensaje enviado">
-        <img class="w-75" src="assets/img/stickers/1.png">
-      </div>
     </div>
     <div class="formulario-mensaje">
       <button>S</button>
@@ -73,6 +42,7 @@
   </section>
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="assets/js/data.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 </html>
