@@ -24,13 +24,9 @@
 }
 
 body {
-  /* background-image: url(../img/bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center; */
   background-color: #101d25;
   color: #acb4bb;
+  height: 100vh;
 }
 
 .opt-menu {
@@ -66,4 +62,48 @@ body {
 
 .chat-preview .nombre-usuario {
   font-weight: bold;
+}
+
+#detalle-chat {
+  display: none;
+  height: 85%;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.formulario-mensaje {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #1e2a32;
+  padding: 10px;
+}
+
+#mensajes {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 70px;
+  flex-direction: column;
+}
+
+.mensaje {
+  padding: 12px;
+  margin: 6px;
+  border-radius: 10px;
+  max-width: 65%;
+}
+
+.mensaje.enviado {
+  background-color: #115248;
+  align-self: flex-end;
+  /* margin-left: auto; */
+}
+
+.mensaje.recibido {
+  background-color: #3c3c3e;
 }
